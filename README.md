@@ -15,7 +15,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] User sees app icon in home screen and styled bottom navigation view
+- [x] User sees app icon in home screen and styled bottom navigation view
 - [ ] Style the feed to look like the real Instagram feed.
 - [x] After the user submits a new post, show an indeterminate progress bar while the post is being uploaded to Parse.
 
@@ -27,8 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-
-![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/103283949/196332124-c8aebed2-b4b9-4193-af45-6a6d51cee431.gif)
+![ezgif com-gif-maker (6)](https://user-images.githubusercontent.com/103283949/196498028-dfc8cfae-b9a1-4777-9c0c-0e7d60c09038.gif)
 
 ## Notes
 
