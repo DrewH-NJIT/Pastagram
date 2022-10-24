@@ -4,6 +4,7 @@ import com.parse.ParseClassName
 import com.parse.ParseFile
 import com.parse.ParseObject
 import com.parse.ParseUser
+import java.util.Date
 
 @ParseClassName("Post") // this associates the class with the table on the parser db api thing
 class Post : ParseObject() {
@@ -16,7 +17,6 @@ class Post : ParseObject() {
         put(KEY_DESCRIPTION, description)
     }
 
-
     fun getImage(): ParseFile? {
         return getParseFile(KEY_IMAGE)
     }
@@ -24,7 +24,6 @@ class Post : ParseObject() {
     fun setImage(parsefile: ParseFile) {
         put(KEY_IMAGE, parsefile)
     }
-
 
     fun getUser(): ParseUser? {
         return getParseUser(KEY_USER)

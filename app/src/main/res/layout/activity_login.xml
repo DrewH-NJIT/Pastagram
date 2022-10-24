@@ -70,4 +70,14 @@
 
         app:layout_constraintTop_toBottomOf="@+id/buttonLogin" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSignup"
+        tools:srcCompat="@drawable/xe" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
